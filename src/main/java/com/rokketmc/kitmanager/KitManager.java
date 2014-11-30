@@ -25,7 +25,7 @@ public class KitManager {
     }
 
     public void addKit(Kit kit) {
-        kits.put(kit.getName(), kit);
+        kits.put(kit.getName().toLowerCase(), kit);
     }
 
 }
